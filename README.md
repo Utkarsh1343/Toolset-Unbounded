@@ -52,6 +52,10 @@ Adarsh Gupta
 
 Code for the website in PUG, The Pug file contains the code in HTML. 
 
+[Homepage](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/static/home.pug)
+[Login Page](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/static/login.pug)
+[Registration page](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/static/register.pug)
+
 
 
 
@@ -61,9 +65,16 @@ Code for the website in PUG, The Pug file contains the code in HTML.
 ## Website styling
 
 CSS file -->
+[Home CSS](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/views/stylehome.css)
+[Login CSS](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/views/stylelogin.css)
+[Register CSS](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/views/styleregister.css) 
+
+
+
 ## Javascript file
 
 [Js file](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/app.js)
+[Json file embedded modules](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/package.json)
 
 
 
