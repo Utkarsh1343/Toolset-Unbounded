@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    height: 600px;
+    width: 1198;
+    /* border:2px solid red; */
+    background-color: white;
+    box-shadow: 2px 2px 12px 2px;
+    display: grid;
+    grid-template-columns: 30vw 48vw;
+    border-radius: 20px;
+    
+    
+    
+}
+.item1{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* border:2px solid red; */
+    background-color: white;
+    
+}
+.item2{
+    /* border:2px solid red; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(/static/backimg.png);
+    background-size: 738px;
+    /* background-attachment: fixed; */
+}
+.container{
+    background-color: rgb(35, 8, 98);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.si{
+    color:black;
+    text-align: center;
+    font-size: 44px;
+    margin-top: 88px;
+    /* margin-left: 10px; */
+}
+.in{
+    width: 344px;
+    height: 29px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 2px;
+    font-size: 13px;
+    padding-left: 11px;
+}
+.form{
+    /* border: 2px solid red; */
+    margin-top: 45px;
+}
+.ha{
+    /* border:2px solid red; */
+    margin-top: 23px;
+    margin-left: 49px;
+}
+.icon{
+    width: 29px;
+    margin-top: 10px;
+}
+.h{
+    /* border:2px solid black; */
+    font-size: 19px;
+}
+.w{
+    display:inline-block;
+    margin-top: 13px;
+    margin-left: 3px;
+    position: absolute;
+}
+.submit{
+    /* border: 2px solid red; */
+    margin-top: 59px;
+}
+.sub{
+    width: 192px;
+    height: 29px;
+    margin-left: 125px;
+    background-color:rgb(33, 33, 125) ;
+    font-size:17px ;
+    border:3px solid black ;
+    border-radius:33px;
+    color: white;
+}
+.sub:hover{
+    cursor: pointer;
+    background-color: #07073d;
+}
+.dha{
+    margin-top: 13px;
+    font-size: 17px;
+    color: black;
+    margin-left: 110px;
+}
+.sign{
+    text-decoration: none;
+    color: blue;
+}
+.sign:hover{
+    cursor: pointer;
+    color: red;
+}
+.line{
+    border: 1px solid #3c3c8b;
+    margin-left: 118px;
+    margin-top: 15px;
+    width: 227px;
+}
+.text{
+    margin-top: 142px;
+    margin-left: 241px;
+    font-size: 78px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+}
+input[type="password"]{
+    -webkit-text-security: disc;
+}
