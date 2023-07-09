@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    block style
+      style
+        include ../static/stylehome.css
+
+  body
+    nav
+      ul.menu
+        li.logo
+          a(href="#") MyDisk
+        li.item
+          a(href="/logedin") Home
+        li.item
+          a(href="/loginabout") About
+        li.item
+          a(href="/logincontact") Contact Us
+        li.item.Button#log
+          a(href="/") Log Out
+    main
+      block content
+   
+
+
+
+

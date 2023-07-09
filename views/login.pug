@@ -1,0 +1,37 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+    style
+      include ../static/stylelogin.css
+  body
+    .container
+      .box
+        .item1
+          .si LOGIN
+          .line
+          .form
+            form(action="/login",method="post")
+              .ha
+                .h
+                  img.icon(src="/static/mail2.png", alt="hi")
+                  .w  EMAIL
+                input.in(type="text",name="email", placeholder="USERNAME OR EMAIL ID")
+              .ha
+                .h
+                  img.icon(src="/static/pass.png", alt="")
+                  .w PASSWORD
+                input.in(type="password",name="password", placeholder="PASSWORD")
+              div#error #{dam}
+              .submit
+                input.sub(type="submit")
+              .dha
+                | Don't have an account?
+                a.sign(href="/register") Sign Up      
+        .item2
+          .text
+            
+

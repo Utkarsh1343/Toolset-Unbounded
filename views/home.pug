@@ -1,0 +1,50 @@
+doctype html
+html(lang="en")
+
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css")
+    link(rel="stylesheet", href="at.css")
+    script(src="at.js")
+    link(href='https://fonts.googleapis.com/css?family=Roboto', rel='stylesheet')
+    link(href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap", rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap", rel="stylesheet")
+    style
+      include ../static/stylehome.css
+
+  body
+    nav
+      ul.menu
+        li.logo
+          a(href="#") MyDisk
+        li.item
+          a(href="#") Home
+        li.item
+          a(href="/about") About
+        li.item
+          a(href="/contact") Contact Us
+        li.item.Button#log
+          a(href="/login") Log In
+        li.item.Button.sec#reg
+          a(href="/register") Sign Up
+        //- li.toggle
+        //-   a(href="#") 
+        //-     i.fas.fa-bars
+      .icon
+    div#k Welcome #{params}!!
+    .container
+      .box#box1 MyDisk
+      .box.lower &#8226; Storage you can rely on.
+      .box.lower &#8226; No hidden charges.
+      .box.lower &#8226; Affordable.
+      .box.lower &#8226; Your perfect back-up partner.
+
+    p
+
+
+</body>
+
+</html>

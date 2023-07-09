@@ -1,0 +1,56 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+    style
+      include ../static/styleregister.css
+  body
+    .container
+      .box
+        .title Create Account
+        .form
+         form(action="/register", method="post",onsubmit="return checkPasswordMatch()")
+            #alpha.ha
+             input(type="text",required, name="fname",autocomplete="off", class="ini", placeholder="First Name")
+            #beta.ha
+              input(type="text",autocomplete="off", name="lname",required, class="ini", placeholder="Last Name")
+            #gamma.ha
+             .h 
+                | EMAIL ID
+             input(type="text",autocomplete="off", name="email",required, class="in", placeholder="EMAIL ID")
+             .ha
+                .h 
+                    | PASSWORD
+             input(type="password",id="password",autocomplete="off",minlength="8",required, name="password", class="in", placeholder="PASSWORD")
+            .note Atleast 8 characters
+            .ha
+             .h 
+              | CONFIRM PASSWORD
+             input(type="password",id="confirmPassword",autocomplete="off",required, name="cpassword", class="in", placeholder="PASSWORD")
+             input(type="submit", class="sub")
+             div#error-message
+        div#error #{pa}
+        .log 
+            |   Already have an account?
+            a(href="/login", class="btn") LOGIN
+
+script.
+  function checkPasswordMatch() {
+    const passwordInput = document.getElementById('password');
+    const confirmPasswordInput = document.getElementById('confirmPassword');
+    const errorMessage = document.getElementById('error-message');
+    const error = document.getElementById('error');
+
+    if (passwordInput.value !== confirmPasswordInput.value) {
+      errorMessage.textContent = 'Passwords do not match.';
+      error.style.display='none';
+      errorMessage.style.color = 'red';
+      return false; // Prevent form submission
+    } else {
+      errorMessage.textContent = ''; // Clear error message if passwords match
+      return true; // Allow form submission
+    }
+  }
