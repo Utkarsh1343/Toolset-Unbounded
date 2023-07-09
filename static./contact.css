@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: rgb(8, 75, 75);
+}
+.container{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 250px;
+    margin-left: 1133px;
+    margin-top: -612px;
+    padding: 25px;
+}
+.container h1{
+    /* border: 2px solid black; */
+    font-size: 100px;
+    display: inline;
+    color: white;
+    
+}
+.contact1{
+    /* border: 2px solid black; */
+    display: inline;
+    float:left;
+    margin-left: 80px;
+    padding-left: 40px;
+    margin-top: 10px;
+    font-size: 35px;
+    /* color:rgb(20, 20, 67); */
+    color: white;
+    
+}
+.contact1 li{
+    margin-top: 35px;
+}
+.line{
+    border: 3px solid white;
+    display: inline-block;
+    margin-left: 389px;
+    margin-top: 50px;
+    width: 1px;
+    height: 562px;
+}
