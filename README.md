@@ -36,8 +36,8 @@ Path in Javascript:
 In JavaScript development, path dependencies can refer to the dependencies and relationships between different modules, libraries, or frameworks that are used within a project.
 ## Authors
 
-Ahmed Noor\
 Ameya Langer\
+Ahmed Noor\
 Pratyush Kaurav\
 Surya Narayan\
 Utkarsh Gupta\
@@ -114,13 +114,18 @@ Run these commands in the terminal of VS code.
  ```bash
 sudo npm install nodemon --global
  ```
+For website to store data download mongoDb from its official website
 
+To start mongodb type this command on terminal(as administrator)
+```bash
+mongod
+```
 
 To run the server use
 ``` bash
 node app.js
 ```
-and run the website on localhost:3000
+and run the website on localhost:80
 
 
 
