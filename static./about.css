@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: rgb(8, 75, 75);
+}
+.heading img{
+    /* border: 2px solid black; */
+    margin-top: 68px;
+    margin-left: 30px;
+    padding: 6px;
+    height: 600px;
+    width: 880px;
+}
+.container{
+    /* border: 2px solid green; */
+    /* display: flex;
+    flex-direction: row; */
+    height: 400px;
+    margin-left: 935px;
+    margin-right: 20px;
+    float:right;
+    margin-top: -666px;
+    /* margin-top: 200px; */
+}
+.container h1{
+    /* border: 2px solid red; */
+    display: inline;
+    margin-left: 88px;
+    /* margin top:800px; */
+    font-size: 94px;
+    color: white;
+    /* padding: 2px; */
+}
+/* .container h1:hover{
+    color: rgb(190, 186, 186);
+} */
+.container li{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 6px;
+    margin-left: 8px;    
+}
+.container ul{
+    margin-left: 40px;
+}
