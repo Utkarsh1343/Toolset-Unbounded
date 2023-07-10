@@ -52,9 +52,12 @@ Adarsh Gupta
 
 Code for the website in PUG, The Pug file contains the code in HTML. 
 
-[Homepage](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/static/home.pug)
-[Login Page](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/static/login.pug)
-[Registration page](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/static/register.pug)
+[Homepage](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/views/logedin.pug)
+[Login Page](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/views/login.pug)
+[Registration page](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/views/register.pug)
+[Contact Us](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/views/logincontactus.pug)
+[About Us](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/views/loginabout.pug)
+[Base File](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/views/base2.pug)
 
 
 
@@ -65,9 +68,12 @@ Code for the website in PUG, The Pug file contains the code in HTML.
 ## Website styling
 
 CSS file -->
-[Home CSS](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/views/stylehome.css)
-[Login CSS](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/views/stylelogin.css)
-[Register CSS](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/views/styleregister.css) 
+[Home CSS](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/static./stylehome.css)
+[Login CSS](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/static./stylelogin.css)
+[Register CSS](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/static./styleregister.css) 
+[Base CSS](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/static./base.css)
+[About Us CSS](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/static./about.css)
+[Contact Us](https://github.com/Utkarsh1343/Toolset-Unbounded/blob/main/static./contact.css)
 
 
 
